@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -18,14 +19,14 @@
 
         <div class= "container">
         <h1>coloque as notas do segundo trimestre</h1>
-         <input type="number" id="notinhas">
+         <input type="number" id="notinhas 2">
         <button onclick="mediadasnotas()">enviar</button>
         <div class="resultado" id="resultado das notas">
     </div>
 
             <div class= "container">
         <h1>coloque as notas do terceiro trimestre</h1>
-         <input type="number" id="notinhas">
+         <input type="number" id="notinhas 3">
         <button onclick="mediadasnotas()">enviar</button>
         <div class="resultado" id="resultado das notas">
     </div>
@@ -33,13 +34,14 @@
 
      function medianotas() {
          var nota= document.getElementById('notinhas').value;
+         var nota= document.getElementById('notinhas 2').value;
+         var nota= document.getElementById('notinhas 3').value;
          if (notas => 60){
              "passou"
          } else {
              "nao passou"
          }
          
-     }
  </script>        
 </body>
 </html>
